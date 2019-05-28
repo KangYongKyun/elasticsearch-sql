@@ -6,6 +6,7 @@
 <formats>
     <format>zip</format>
 </formats>
+<includeBaseDirectory>false</includeBaseDirectory>
 <fileSets>
     <fileSet>
         <directory>${project.basedir}/src/_site</directory>
@@ -19,6 +20,7 @@
         <outputDirectory>/</outputDirectory>
         <includes>
             <include>*.jar</include>
+            <include>plugin-descriptor.properties</include>
         </includes>
     </fileSet>
 </fileSets>
